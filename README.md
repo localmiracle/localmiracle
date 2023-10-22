@@ -1,6 +1,5 @@
-
 <div align="center">
-<img src="" align="center" style="width: 100%" />
+<img src="https://www.btc-echo.de/academy/wp-content/uploads/sites/9/2019/12/Cypherpunk-Logo-scaled.jpg" align="center" style="width: 100%" />
 </div>  
   
 
@@ -130,6 +129,3 @@ If things goes well, this section should automatically be replaced by a list of 
                 />
             </a></div>
 <br />
-
-----
-<div align="center">Generated using <a href="https://profilinator.rishav.dev/" target="_blank">Github Profilinator</a></div>
