@@ -28,6 +28,8 @@
 
 ![GitHub streak stats](https://streak-stats.demolab.com/?user=localmiracle)  
 
+<br/>
+
 ## My Skill Set  
 <table><tr><td valign="top" width="33%">
 
