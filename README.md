@@ -1,5 +1,4 @@
 <div align="center">
-<img src="https://www.btc-echo.de/academy/wp-content/uploads/sites/9/2019/12/Cypherpunk-Logo-scaled.jpg" align="center" style="width: 100%" />
 </div>  
   
 
