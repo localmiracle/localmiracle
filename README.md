@@ -1,141 +1,183 @@
-<div id="header" align="center">
-  <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
-</div>
-
-  
-
-
-
-### <div align="center">I'm Maxim, a full-time full-stack developer 👨‍💻 working since 2021 🚀</div>  
-  
-
-- 🔭 I’m currently working in Synergy university  
-  
-
-- 🌱 I’m currently learning GO and React  
-  
-
-- ⚡ Fun fact: I use tabs over spaces  
-  
-
-<br/>  
-
-[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/localmiracle)  
-
-
-![GitHub streak stats](https://streak-stats.demolab.com/?user=localmiracle)  
-
-<br/>
-
-## My Skill Set  
-<table><tr><td valign="top" width="33%">
-
-<br/>
-
-### Frontend  
-<div align="center">  
-<a href="https://docs.microsoft.com/en-us/dotnet/csharp/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/csharp-original.svg" alt="C#" height="50" /></a>  
-<a href="https://dotnet.microsoft.com/download/dotnet-framework" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/dot-net-original-wordmark.svg" alt=".NET" height="50" /></a>  
-<a href="https://en.wikipedia.org/wiki/HTML5" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" height="50" /></a>  
-<a href="https://www.mysql.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/mysql-original-wordmark.svg" alt="MySQL" height="50" /></a>  
-<a href="https://github.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/git-scm-icon.svg" alt="Git" height="50" /></a>  
-<a href="https://dotnet.microsoft.com/download" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/dotnetcore.png" alt=".Net Core" height="50" /></a>  
-<a href="https://nodejs.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/nodejs-original-wordmark.svg" alt="Node.js" height="50" /></a>  
-<a href="https://www.ruby-lang.org/en/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/ruby-original-wordmark.svg" alt="Ruby" height="50" /></a>  
-<a href="https://www.php.net/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/php-original.svg" alt="PHP" height="50" /></a>  
-<a href="https://www.java.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/java-original-wordmark.svg" alt="Java" height="50" /></a>  
-<a href="https://www.cplusplus.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/cplusplus-original.svg" alt="C++" height="50" /></a>  
-<a href="https://reactjs.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/react-original-wordmark.svg" alt="React" height="50" /></a>  
-<a href="https://www.figma.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/figma-icon.svg" alt="Figma" height="50" /></a>  
-<a href="https://www.javascript.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="50" /></a>  
-<a href="https://nextjs.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/nextjs.png" alt="NextJS" height="50" /></a>  
-</div>
-
-</td><td valign="top" width="33%">
-
-
-
-### Backend  
-<div align="center">  
-<a href="https://www.cplusplus.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/cplusplus-original.svg" alt="C++" height="50" /></a>  
-<a href="https://www.javascript.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="50" /></a>  
-<a href="https://www.typescriptlang.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/typescript-original.svg" alt="TypeScript" height="50" /></a>  
-<a href="https://www.php.net/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/php-original.svg" alt="PHP" height="50" /></a>  
-<a href="https://www.mongodb.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/mongodb-original-wordmark.svg" alt="MongoDB" height="50" /></a>  
-<a href="https://nodejs.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/nodejs-original-wordmark.svg" alt="Node.js" height="50" /></a>  
-<a href="https://www.linux.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/linux-original.svg" alt="Linux" height="50" /></a>  
-<a href="https://www.nginx.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/nginx-original.svg" alt="Nginx" height="50" /></a>  
-<a href="https://www.python.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/python-original.svg" alt="Python" height="50" /></a>  
-<a href="https://expressjs.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/express-original-wordmark.svg" alt="Express.js" height="50" /></a>  
-<a href="https://github.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/git-scm-icon.svg" alt="Git" height="50" /></a>  
-<a href="https://redux.js.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/redux-original.svg" alt="Redux" height="50" /></a>  
-<a href="https://www.gnu.org/software/bash/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/gnu_bash-icon.svg" alt="Bash" height="50" /></a>  
-<a href="https://reactjs.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/react-original-wordmark.svg" alt="React" height="50" /></a>  
-</div>
-
-</td><td valign="top" width="33%">
-
-
-
-### DevOps  
-<div align="center">  
-<a href="https://aws.amazon.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/amazonwebservices-original-wordmark.svg" alt="AWS" height="50" /></a>  
-<a href="https://cloud.google.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/google_cloud-icon.svg" alt="GCP" height="50" /></a>  
-<a href="https://kubernetes.io/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/kubernetes-icon.svg" alt="Kubernetes" height="50" /></a>  
-<a href="https://www.linux.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/linux-original.svg" alt="Linux" height="50" /></a>  
-<a href="https://github.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/git-scm-icon.svg" alt="Git" height="50" /></a>  
-<a href="https://www.gnu.org/software/bash/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/gnu_bash-icon.svg" alt="Bash" height="50" /></a>  
-</div>
-
-</td></tr></table>  
-
-<br/>  
-
-
-## Connect with me  
 <div align="center">
-<a href="https://github.com/localmiracle" target="_blank">
-<img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
-</a>
-<a href="https://instagram.com/localmiracleq" target="_blank">
-<img src=https://img.shields.io/badge/instagram-%23000000.svg?&style=for-the-badge&logo=instagram&logoColor=white alt=instagram style="margin-bottom: 5px;" />
-</a>  
-</div>  
-  
 
-<br/>  
+# Hey, I'm Maxim Botnev 👋
 
+### Solution Architect · Tech Lead · Backend Engineer
 
-## Github Stats  
-<img src="https://github-readme-stats.vercel.app/api?username=localmiracle&show_icons=true&count_private=true&hide_border=true" align="left" />  
+**I design and build scalable backend platforms, distributed systems and production infrastructure.**
 
-<br/>  
+[![GitHub](https://img.shields.io/badge/GitHub-localmiracle-181717?style=for-the-badge\&logo=github)](https://github.com/localmiracle)
+[![Telegram](https://img.shields.io/badge/Telegram-@twixzzzi-26A5E4?style=for-the-badge\&logo=telegram\&logoColor=white)](https://t.me/twixzzzi)
+[![Email](https://img.shields.io/badge/Email-mgbotnev%40gmail.com-EA4335?style=for-the-badge\&logo=gmail\&logoColor=white)](mailto:mgbotnev@gmail.com)
 
+</div>
 
-## Recent Blog Posts  
-<!-- BLOG-POST-LIST:START -->  
-If things goes well, this section should automatically be replaced by a list of your blog posts after you commit your readme file. 
-<!-- BLOG-POST-LIST:END -->  
+---
 
-<br/>  
+## 👨‍💻 About Me
 
+I'm a **Solution Architect / Tech Lead / Backend Engineer** with 4+ years of experience building backend platforms and high-load systems.
 
-  
+My main focus is turning complex business requirements into **reliable, scalable and maintainable production systems**.
 
-<br/>  
+```text
+Architecture       → Distributed Systems · Microservices · Event-Driven Architecture
+Backend            → Go · PHP / Laravel · Node.js
+Data               → PostgreSQL · MySQL · Redis · MongoDB
+Infrastructure     → Docker · Kubernetes · Linux · Nginx
+Observability      → Prometheus · Grafana · Logging · Alerting
+Delivery           → CI/CD · GitLab CI · Technical Leadership
+```
+
+I'm a **hands-on engineer** — comfortable moving from system architecture and technical decisions all the way down to code, SQL optimization, debugging and production incidents.
+
+---
+
+## ⚡ What I Do
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### 🏗 Architecture
+
+* System Design
+* Microservices
+* Distributed Systems
+* Event-Driven Architecture
+* High Availability
+* Horizontal Scaling
+* API Design
+
+</td>
+<td width="33%" valign="top">
+
+### ⚙️ Backend
+
+* Go
+* PHP / Laravel
+* Node.js
+* REST APIs
+* Background Workers
+* Redis Queues
+* WebSockets
+* Transaction Processing
+
+</td>
+<td width="33%" valign="top">
+
+### 🚀 Platform
+
+* Docker
+* Kubernetes
+* CI/CD
+* Linux
+* Nginx
+* PostgreSQL
+* Prometheus
+* Grafana
+
+</td>
+</tr>
+</table>
+
+---
+
+## 📈 Engineering Impact
+
+Some results from systems I've worked on:
+
+* ⚡ Improved financial operation processing performance by **30%**
+* 🗄 Reduced database load by **25%** through caching and query optimization
+* 🔁 Designed **idempotent transaction processing** resilient to network failures
+* 🚀 Reduced release cycle time by **25%**
+* 🔍 Improved incident response time by **40%** with observability and alerting
+* 📊 Built systems handling **10,000+ concurrent users**
+* 📈 Delivered product mechanics that increased user engagement by **40%**
+
+---
+
+## 🧰 Tech Stack
 
 <div align="center">
-<img src="https://komarev.com/ghpvc/?username=localmiracle&&style=flat-square" align="center" />
-</div>  
-  
 
-<br/>  
+<img src="https://skillicons.dev/icons?i=go,php,laravel,nodejs,postgres,mysql,redis,mongodb,docker,kubernetes,linux,nginx,git,gitlab,prometheus,grafana&perline=8" />
+
+</div>
+
+### Backend & Architecture
+
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square\&logo=go\&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square\&logo=php\&logoColor=white)
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square\&logo=laravel\&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square\&logo=node.js\&logoColor=white)
+![Microservices](https://img.shields.io/badge/Microservices-Architecture-black?style=flat-square)
+![Distributed Systems](https://img.shields.io/badge/Distributed-Systems-black?style=flat-square)
+![Event Driven](https://img.shields.io/badge/Event--Driven-Architecture-black?style=flat-square)
+
+### Data
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square\&logo=postgresql\&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square\&logo=mysql\&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square\&logo=redis\&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square\&logo=mongodb\&logoColor=white)
+
+### Infrastructure
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square\&logo=docker\&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square\&logo=kubernetes\&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square\&logo=linux\&logoColor=black)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square\&logo=nginx\&logoColor=white)
+![GitLab CI](https://img.shields.io/badge/GitLab_CI-FC6D26?style=flat-square\&logo=gitlab\&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square\&logo=prometheus\&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square\&logo=grafana\&logoColor=white)
+
+---
+
+## 🧠 Engineering Interests
+
+```go
+var interests = []string{
+    "Distributed Systems",
+    "High-Load Backend",
+    "System Architecture",
+    "Platform Engineering",
+    "Performance Optimization",
+    "Financial Systems",
+    "Observability",
+    "Developer Infrastructure",
+}
+```
+
+I especially enjoy problems where **architecture, performance, reliability and product requirements intersect**.
+
+---
+
+## 📊 GitHub
 
 <div align="center">
-            <a href="https://paypal.me/localmiracle" target="_blank" style="display: inline-block;">
-                <img
-                    src="https://img.shields.io/badge/Donate-PayPal-blue.svg?style=flat-square&logo=paypal" 
-                    align="center"
-                />
-            </a></div>
-<br />
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=localmiracle&show_icons=true&hide_border=true&rank_icon=github" />
+
+<img height="170" src="https://streak-stats.demolab.com/?user=localmiracle&hide_border=true" />
+
+</div>
+
+---
+
+## 🤝 Let's Connect
+
+I'm interested in challenging engineering problems around:
+
+**Backend Platforms · Distributed Systems · System Architecture · High Load · FinTech · Infrastructure**
+
+<div align="center">
+
+[![GitHub](https://img.shields.io/badge/GitHub-localmiracle-181717?style=for-the-badge\&logo=github)](https://github.com/localmiracle)
+[![Telegram](https://img.shields.io/badge/Telegram-@twixzzzi-26A5E4?style=for-the-badge\&logo=telegram\&logoColor=white)](https://t.me/twixzzzi)
+
+<br>
+
+<img src="https://komarev.com/ghpvc/?username=localmiracle&style=flat-square&label=Profile+Views" />
+
+</div>
