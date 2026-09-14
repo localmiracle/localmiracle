@@ -1,0 +1,140 @@
+name: Refresh profile widgets
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 5 * * *'
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/profile-widgets.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-widgets
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Check out profile
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+
+      - name: Generate overview — dark
+        uses: stats-organization/github-readme-stats-action@e856fc8de9d7729b463c468911e232cfbdc3d55e # v2.0.2
+        with:
+          card: stats
+          core_version: '2.2.0'
+          fail_on_error: 'true'
+          options: username=localmiracle&custom_title=GitHub%20overview&hide_rank=true&hide=stars&show_icons=true&hide_border=true&bg_color=0d1117&title_color=6cb6c2&icon_color=6cb6c2&text_color=8b949e&text_bold=false&disable_animations=true&card_width=400&line_height=27&border_radius=12
+          path: assets/widgets/overview-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate overview — light
+        uses: stats-organization/github-readme-stats-action@e856fc8de9d7729b463c468911e232cfbdc3d55e # v2.0.2
+        with:
+          card: stats
+          core_version: '2.2.0'
+          fail_on_error: 'true'
+          options: username=localmiracle&custom_title=GitHub%20overview&hide_rank=true&hide=stars&show_icons=true&hide_border=true&bg_color=ffffff&title_color=2b7f8b&icon_color=2b7f8b&text_color=656d76&text_bold=false&disable_animations=true&card_width=400&line_height=27&border_radius=12
+          path: assets/widgets/overview-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate streak — dark
+        uses: DenverCoder1/github-readme-streak-stats@70dd50f921097927dc8314ac33a04b010a09924d
+        with:
+          options: user=localmiracle&hide_border=true&background=0d1117&ring=6cb6c2&fire=transparent&currStreakNum=e6edf3&sideNums=e6edf3&currStreakLabel=6cb6c2&sideLabels=8b949e&dates=8b949e&stroke=21262d&border_radius=12&card_width=400&card_height=195&locale=en&timezone=Europe%2FTallinn&disable_animations=true
+          path: assets/widgets/streak-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate streak — light
+        uses: DenverCoder1/github-readme-streak-stats@70dd50f921097927dc8314ac33a04b010a09924d
+        with:
+          options: user=localmiracle&hide_border=true&background=ffffff&ring=2b7f8b&fire=transparent&currStreakNum=24292f&sideNums=24292f&currStreakLabel=2b7f8b&sideLabels=656d76&dates=656d76&stroke=d8dee4&border_radius=12&card_width=400&card_height=195&locale=en&timezone=Europe%2FTallinn&disable_animations=true
+          path: assets/widgets/streak-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Cache activity charts and validate all SVGs
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          from urllib.parse import urlencode
+          from urllib.request import Request, urlopen
+          import time
+          import xml.etree.ElementTree as ET
+
+          root = Path('assets/widgets')
+          root.mkdir(parents=True, exist_ok=True)
+
+          def validate(data):
+              if not 300 < len(data) < 2_000_000:
+                  raise ValueError('Unexpected SVG size')
+              svg = ET.fromstring(data)
+              if svg.tag != '{http://www.w3.org/2000/svg}svg':
+                  raise ValueError('Response is not an SVG')
+              text = ' '.join(svg.itertext()).lower()
+              errors = ('something went wrong', 'rate limit exceeded', 'could not fetch',
+                        'user not found', 'invalid username', 'unable to fetch')
+              if any(error in text for error in errors):
+                  raise ValueError('Provider returned an error card')
+              for node in svg.iter():
+                  tag = node.tag.rsplit('}', 1)[-1]
+                  if tag in ('script', 'foreignObject'):
+                      raise ValueError('Unsafe SVG element')
+                  if any(key.lower().startswith('on') for key in node.attrib):
+                      raise ValueError('Unexpected event handler')
+              return data
+
+          for theme, bg, text, accent in (
+              ('dark', '0d1117', '8b949e', '6cb6c2'),
+              ('light', 'ffffff', '656d76', '2b7f8b'),
+          ):
+              params = dict(username='localmiracle', bg_color=bg, color=text,
+                            line=accent, point=accent, area_color=accent,
+                            area='true', hide_border='true', hide_title='true',
+                            height=260, radius=12, days=31, grid='false')
+              url = 'https://github-readme-activity-graph.vercel.app/graph?' + urlencode(params)
+              destination = root / f'activity-{theme}.svg'
+              for attempt in range(3):
+                  try:
+                      req = Request(url, headers={'User-Agent': 'localmiracle-profile-widgets'})
+                      with urlopen(req, timeout=40) as response:
+                          data = validate(response.read(2_000_001))
+                      destination.write_bytes(data)
+                      break
+                  except Exception as error:
+                      if attempt == 2:
+                          if destination.exists():
+                              validate(destination.read_bytes())
+                              print(f'::warning::Keeping last valid {destination.name}: {error}')
+                          else:
+                              raise
+                      else:
+                          time.sleep(5 * (attempt + 1))
+
+          for name in ('overview', 'streak', 'activity'):
+              for theme in ('dark', 'light'):
+                  path = root / f'{name}-{theme}.svg'
+                  validate(path.read_bytes())
+                  print(f'Validated {path}')
+          PY
+
+      - name: Publish valid widgets
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/widgets/*.svg
+          if git diff --cached --quiet; then
+            echo 'Widgets are unchanged.'
+            exit 0
+          fi
+          git commit -m 'chore(profile): refresh GitHub widgets [skip ci]'
+          git pull --rebase origin main
+          git push origin HEAD:main
