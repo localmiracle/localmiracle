@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-labelledby="title desc">
+<title id="title">Maxim Botnev · localmiracle</title><desc id="desc">Architecture. Code. Production. System design, backend and delivery.</desc>
+<rect x=".75" y=".75" width="1278.5" height="318.5" rx="18" fill="#0d1117" stroke="#283343" stroke-width="1.5"/>
+<g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif">
+<g fill="#8b98aa"><text x="50" y="57" font-size="14" letter-spacing="3.7">LOCALMIRACLE</text><text x="50" y="283" font-size="13" letter-spacing="2.3">SYSTEM DESIGN / BACKEND / DELIVERY</text></g><g fill="#f0f3f8"><text x="48" y="150" font-size="86" font-weight="650" letter-spacing="-4">Maxim Botnev</text></g><g fill="#8b98aa"><text x="50" y="201" font-size="27">Architecture. Code. Production.</text></g><g transform="translate(965 49)">
+          <path d="M98 0V214M0 107H208" stroke="#283343" stroke-width="1" stroke-dasharray="3 6"/>
+          <rect x="35" y="38" width="132" height="132" rx="18" fill="#111820" stroke="#283343"/>
+          <rect x="52" y="55" width="132" height="132" rx="18" fill="#0d1117" stroke="#283343"/>
+          <rect x="70" y="74" width="132" height="132" rx="18" fill="#111820" stroke="#8ab4f8" stroke-width="1.5"/>
+          <path d="M96 139H113Q121 139 121 131V120Q121 112 129 112H168" fill="none" stroke="#8ab4f8" stroke-width="2"/>
+          <path d="M121 134V159Q121 167 129 167H166" fill="none" stroke="#283343" stroke-width="2"/>
+          <circle cx="96" cy="139" r="4" fill="#8ab4f8"/><rect x="158" y="102" width="20" height="20" rx="4" fill="#0d1117" stroke="#8ab4f8"/>
+          <rect x="158" y="157" width="20" height="20" rx="4" fill="#0d1117" stroke="#8b98aa"/>
+          <text x="79" y="237" fill="#8b98aa" font-size="11" letter-spacing="2">DESIGN → SHIP</text>
+        </g>
+</g></svg>
