@@ -1,88 +1,38 @@
-<!-- Profile README: localmiracle/localmiracle. Upload README.md, README.en.md and assets/ together. -->
-<p align="right"><b>RU</b> / <a href="./README.en.md">EN</a></p>
+<h1 align="center">Maxim Botnev</h1>
 
-<p>
-<picture>
-	<source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./assets/header-dark-mobile.svg">
-	<source media="(max-width: 600px)" srcset="./assets/header-light-mobile.svg">
-	<source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg">
-	<img src="./assets/header-light.svg" width="100%" alt="Maxim Botnev — Architecture. Code. Production.">
-</picture>
+<p align="center"><strong>Go Backend Developer</strong></p>
+
+<p align="center">
+	<a href="https://t.me/twixzzzi">Telegram</a> &nbsp; · &nbsp;
+	<a href="mailto:mgbotnev@gmail.com">Email</a> &nbsp; · &nbsp;
+	<a href="./README.en.md">EN</a>
 </p>
-
-<img align="right" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="64" alt="Анимация разработчика из предыдущей версии профиля">
-
-<p><strong>Solution Architect · Tech Lead · Backend Engineer</strong></p>
-
-<p>
-	<a href="https://t.me/twixzzzi">Telegram</a> &nbsp; / &nbsp;
-	<a href="mailto:mgbotnev@gmail.com">Email</a> &nbsp; / &nbsp;
-	<a href="https://github.com/localmiracle?tab=repositories">Репозитории</a>
-</p>
-
-<br clear="both">
-
-## Профиль
-
-Проектирую и разрабатываю backend-системы: от границ сервисов и модели данных до API, интеграций и развёртывания.
-
-Совмещаю архитектурную работу с написанием кода. В фокусе — производительность баз данных, надёжность обработки транзакций, наблюдаемость и предсказуемый выпуск изменений.
-
-## Инженерный фокус
-
-**Архитектура.** Границы сервисов, микросервисы, распределённые и событийные системы.
-
-**Производительность.** SQL-оптимизация, кеширование, очереди и идемпотентная обработка транзакций.
-
-**Эксплуатация.** Контейнеризация, CI/CD, мониторинг, логирование и диагностика инцидентов.
-
-**Интеграции.** Платёжные системы, KYC, CRM, Telegram и WhatsApp.
-
-## Технологии
-
-| Область | Инструменты |
-| :--- | :--- |
-| **Backend** | `Go` `PHP` `Laravel` `Node.js` `TypeScript` |
-| **API** | `REST` `gRPC` `WebSockets` |
-| **Данные** | `PostgreSQL` `MySQL` `Redis` `MongoDB` |
-| **Платформа** | `Docker` `Kubernetes` `Linux` `Nginx` `GitLab CI/CD` |
-| **Мониторинг** | `Prometheus` `Grafana` · нагрузочные тесты: `k6` `JMeter` |
-| **Frontend** | `Vue` `React` `Next.js` |
-
-## Публичный код
-
-Инструменты, интеграции и продуктовые эксперименты с открытым кодом.
-
-### [Chronograph](https://github.com/localmiracle/chronograph)
-
-**Go · трассировки · CLI**
-
-Инструмент для сбора и анализа span-событий. Фильтрация по длительности, построение сокращённого графа и вывод результатов в JSON или DOT. В репозитории — библиотека и CLI с демонстрационным сценарием.
-
-### [GREEN-API Demo](https://github.com/localmiracle/green-api-demo)
-
-**Node.js · TypeScript · Express**
-
-Демо интеграции с WhatsApp через GREEN-API. Контроллеры, use cases и HTTP-сервис разделены; веб-интерфейс позволяет проверить настройки и отправить сообщение или файл.
-
-<details>
-<summary><strong>Ещё один эксперимент: Telegram WebApp и 3D</strong></summary>
 
 <br>
 
-[PC Mining](https://github.com/localmiracle/pc-mining-telegram-webapp) — игровой WebApp-прототип на `Next.js`, `React` и `React Three Fiber`: 3D-сцена, улучшения ПК и офлайн-прогресс. Платёжные операции демонстрационные; это не готовая платёжная интеграция.
+Пишу на **Go** и разрабатываю backend: API, сервисы, интеграции и работу с данными. Создаю новые системы и развиваю существующие — от модели данных и бизнес-логики до запуска и поддержки.
 
-</details>
+## Чем полезен
 
-## GitHub activity
+**Разработка сервисов.** Проектирую и реализую REST и gRPC API, фоновую обработку задач и взаимодействие между сервисами. Стараюсь делать код понятным, а решения — соразмерными задаче.
 
-<sub>График активности за последние 31 день. Статистика обновляется внешними сервисами.</sub>
+**Данные и производительность.** Оптимизирую SQL-запросы, настраиваю кеширование и работаю с транзакциями. Разбираюсь в узких местах, чтобы API отвечали быстрее, а база не выполняла лишнюю работу.
+
+**Интеграции и запуск.** Подключаю платёжные системы, внешние API, CRM и мессенджеры. Настраиваю контейнеризацию, CI/CD, логирование и мониторинг, чтобы сервис было удобно выпускать и поддерживать.
+
+## Стек
+
+`Go` · `PostgreSQL` · `MySQL` · `Redis` · `Docker` · `Linux`
+
+Также работаю с PHP / Laravel и Node.js / TypeScript.
+
+## Активность
 
 <p align="center">
 	<a href="https://github.com/localmiracle">
 		<picture>
-			<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=localmiracle&amp;bg_color=0d1117&amp;color=919ba9&amp;line=8ab4f8&amp;point=8ab4f8&amp;area_color=8ab4f8&amp;area=true&amp;hide_border=true&amp;hide_title=true&amp;height=250&amp;radius=0&amp;days=31">
-			<img src="https://github-readme-activity-graph.vercel.app/graph?username=localmiracle&amp;bg_color=ffffff&amp;color=59636e&amp;line=315eaf&amp;point=315eaf&amp;area_color=315eaf&amp;area=true&amp;hide_border=true&amp;hide_title=true&amp;height=250&amp;radius=0&amp;days=31" alt="GitHub activity localmiracle за последние 31 день" width="100%">
+			<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=localmiracle&amp;bg_color=0d1117&amp;color=8b949e&amp;line=6cb6c2&amp;point=6cb6c2&amp;area_color=6cb6c2&amp;area=true&amp;hide_border=true&amp;hide_title=true&amp;height=250&amp;radius=0&amp;days=31&amp;grid=false">
+			<img src="https://github-readme-activity-graph.vercel.app/graph?username=localmiracle&amp;bg_color=ffffff&amp;color=656d76&amp;line=2b7f8b&amp;point=2b7f8b&amp;area_color=2b7f8b&amp;area=true&amp;hide_border=true&amp;hide_title=true&amp;height=250&amp;radius=0&amp;days=31&amp;grid=false" width="100%" alt="Активность localmiracle на GitHub за последние 31 день">
 		</picture>
 	</a>
 </p>
@@ -90,16 +40,10 @@
 <p align="center">
 	<a href="https://github.com/localmiracle">
 		<picture>
-			<source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=localmiracle&amp;hide_border=true&amp;background=0d1117&amp;ring=8ab4f8&amp;fire=8ab4f8&amp;currStreakNum=919ba9&amp;sideNums=919ba9&amp;currStreakLabel=8ab4f8&amp;sideLabels=919ba9&amp;dates=919ba9&amp;stroke=919ba9&amp;border_radius=0&amp;card_width=800">
-			<img src="https://streak-stats.demolab.com/?user=localmiracle&amp;hide_border=true&amp;background=ffffff&amp;ring=315eaf&amp;fire=315eaf&amp;currStreakNum=59636e&amp;sideNums=59636e&amp;currStreakLabel=315eaf&amp;sideLabels=59636e&amp;dates=59636e&amp;stroke=59636e&amp;border_radius=0&amp;card_width=800" alt="GitHub streak localmiracle: вклад, текущая и самая длинная серии" width="100%">
+			<source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=localmiracle&amp;hide_border=true&amp;background=0d1117&amp;ring=6cb6c2&amp;fire=transparent&amp;currStreakNum=e6edf3&amp;sideNums=e6edf3&amp;currStreakLabel=6cb6c2&amp;sideLabels=8b949e&amp;dates=8b949e&amp;stroke=21262d&amp;border_radius=0&amp;card_width=560&amp;locale=ru&amp;disable_animations=true">
+			<img src="https://streak-stats.demolab.com/?user=localmiracle&amp;hide_border=true&amp;background=ffffff&amp;ring=2b7f8b&amp;fire=transparent&amp;currStreakNum=24292f&amp;sideNums=24292f&amp;currStreakLabel=2b7f8b&amp;sideLabels=656d76&amp;dates=656d76&amp;stroke=d8dee4&amp;border_radius=0&amp;card_width=560&amp;locale=ru&amp;disable_animations=true" width="560" alt="Вклад в GitHub, текущая и самая длинная серии активности localmiracle">
 		</picture>
 	</a>
 </p>
 
----
-
-<p align="center">
-	<samp>ARCHITECTURE / BACKEND / DELIVERY</samp><br><br>
-	<a href="https://t.me/twixzzzi">@twixzzzi</a> &nbsp; · &nbsp;
-	<a href="mailto:mgbotnev@gmail.com">mgbotnev@gmail.com</a>
-</p>
+<p align="center"><sub>Публичная активность на GitHub · данные внешних сервисов</sub></p>
