@@ -23,7 +23,7 @@
                 <!-- Total Contributions big number -->
                 <g transform='translate(66.666666666667, 48)'>
                     <text x='0' y='32' stroke-width='0' text-anchor='middle' fill='#e6edf3' stroke='none' font-family='"Segoe UI", Ubuntu, sans-serif' font-weight='700' font-size='28px' font-style='normal' style='opacity: 1; opacity: 1;'>
-                        134
+                        371
                     </text>
                 </g>
 
@@ -52,7 +52,7 @@
                 <!-- Current Streak range -->
                 <g transform='translate(200, 145)'>
                     <text x='0' y='21' stroke-width='0' text-anchor='middle' fill='#8b949e' stroke='none' font-family='"Segoe UI", Ubuntu, sans-serif' font-weight='400' font-size='12px' font-style='normal' style='opacity: 1; opacity: 1;'>
-                        Oct 26
+                        Oct 26 - Oct 27
                     </text>
                 </g>
 
@@ -69,7 +69,7 @@
                 <!-- Current Streak big number -->
                 <g transform='translate(200, 48)'>
                     <text x='0' y='32' stroke-width='0' text-anchor='middle' fill='#e6edf3' stroke='none' font-family='"Segoe UI", Ubuntu, sans-serif' font-weight='700' font-size='28px' font-style='normal' style='font-size: 28px;'>
-                        0
+                        2
                     </text>
                 </g>
 
@@ -78,7 +78,7 @@
                 <!-- Longest Streak big number -->
                 <g transform='translate(333.33333333333, 48)'>
                     <text x='0' y='32' stroke-width='0' text-anchor='middle' fill='#e6edf3' stroke='none' font-family='"Segoe UI", Ubuntu, sans-serif' font-weight='700' font-size='28px' font-style='normal' style='opacity: 1; opacity: 1;'>
-                        2
+                        4
                     </text>
                 </g>
 
@@ -92,7 +92,7 @@
                 <!-- Longest Streak range -->
                 <g transform='translate(333.33333333333, 114)'>
                     <text x='0' y='32' stroke-width='0' text-anchor='middle' fill='#8b949e' stroke='none' font-family='"Segoe UI", Ubuntu, sans-serif' font-weight='400' font-size='12px' font-style='normal' style='opacity: 1; opacity: 1;'>
-                        <tspan x='0' dy='0'>Nov 29, 2023</tspan><tspan x='0' dy='16'>- Nov 30, 2023</tspan>
+                        Aug 26 - Aug 29
                     </text>
                 </g>
             </g>
