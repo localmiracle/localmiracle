@@ -11,7 +11,7 @@
 
 Go backend developer. API, сервисы, интеграции и данные.
 
-[Telegram](https://t.me/twixzzzi) · [Email](mailto:mgbotnev@gmail.com) · [EN](./README.en.md)
+[Telegram](https://t.me/twixzzzi)
 
 ## Projects
 
